@@ -11,6 +11,8 @@
   font-size: 20px;
   font-weight: 700;
   padding: 15px 35px;
+  margin-left: auto;
+  
 }
 .banner{
   background-image: url(../images/banner/banner1.png);
@@ -24,22 +26,25 @@
 .banner-info{
   float: right;
   margin-top: 200px;
-  width: 50%;
+  width: 40%;
+  text-align: right;
+  margin-right: 200px;
 }
 .banner-info h1{
   font-size: 55px;
   font-weight: bold;
   color: black;
+
 }
 .banner-info p{
   font-size: 18px;
   margin-top: 15px;
   margin-bottom: 15px;
   color: gray;
-  width: 50%;
+  text-align: right;
 }
 .button-right{
-  text-align: left;
+  margin-left: auto;
 }
 
 /* failure-container */
@@ -86,7 +91,7 @@
 }
 .positive-container{
   height: 30vh;
-  background-image: url(../images/watch.png);
+  background-image: url(../images/gradient1.png),url(../images/watch.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -155,5 +160,4 @@ footer{
   background: black;
   border: 1px solid white;
   font-size: 20px;
-  /* width: 100%; */
 }
