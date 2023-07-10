@@ -18,12 +18,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  align-items: right;
+
 }
 .banner-info{
   float: right;
-  width: 50%;
   margin-top: 200px;
-  align-items: center;
+  width: 50%;
 }
 .banner-info h1{
   font-size: 55px;
@@ -37,40 +38,74 @@
   color: gray;
   width: 50%;
 }
-.button{
-  text-align: right;
+.button-right{
+  text-align: left;
 }
 
 /* failure-container */
 .failures-container{
   display: flex;
   padding: 30px;
-}
-.failure-info{
-  margin-top: 200px;
-  width: 50%;
-}
-.failure-info h1{
-  color: black;
-  margin-bottom: 20px;
-  font-size: 25px;
-  font-weight: 800;
+  align-items: center;
+  gap: 100px;
 }
 
-<section>
-      <div class="failures-container">
-        <failure-image>
-          <img src="images/person.png " alt="failure-image">
-        </failure-image>
-        <div class="failure-info">
-          <h1>My failures of 
-            <br>
-            previous year</h1>
-            <p>Contrary to popular belief, Lorem Ipsum is not 
-            simply random text. It has roots in a piece of 
-            classical Latin literature from 45 BC, making it over 
-            2000 years old. Richard McClintock.</p>
-        </div>
-      </div>
-    </section>
-  </main>
+.failures-info{
+}
+.failures-info h1{
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.failures-info p{
+  width: 50%;
+  margin-bottom: 10px;
+}
+.person-img{
+  width: 500px;
+}
+.plan-container{
+  /* display: flex; */
+}
+.plan-heading{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.plan-info{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.plan-info-box p{
+  color: gray;
+  font-size: 22px;
+}
+.positive-container{
+  height: 30vh;
+  background-image: url(../images/watch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+.positive-title{
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.btn{
+  background-color:white;
+  border-radius: 5px;
+  border: 0;
+  color: tomato;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+/* footer section */
